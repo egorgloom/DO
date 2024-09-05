@@ -1,0 +1,45 @@
+@media (max-width: 1280px) {
+    body {
+        width: 1080px;
+        margin: 0 203px 0 177px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .header {
+        margin-top: 41px;
+        width: 1080px;
+        height: 59px;
+        display: flex;
+
+    }
+
+    .nav {
+        margin-left: auto;
+    }
+
+    .user-photo {
+        padding-top: 9px;
+        width: 270px;
+        height: 270px;
+    }
+
+    .skills ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 150px;
+    }
+
+    .project-card {
+        width: 328px;
+    }
+
+    .project-links a:last-child {
+        margin-right: 0px;
+    }
+
+    hr {
+        width: 1080px;
+    }
+
+}

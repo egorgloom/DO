@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    width: 1220px;
+    background: white;
+    box-sizing: border-box;
+    margin: 0 203px 0 177px;
+    margin-left: 177px;
+    margin-right: 203px;
+}
+
+
+.header {
+    margin-top: 41px;
+
+    height: 59px;
+    display: flex;
+
+}
+
+.logo {
+    width: 97px;
+    height: 59px;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: 51px;
+}
+
+.nav ul {
+    width: 609px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.nav ul a {
+    cursor: pointer;
+    color: rgb(102, 102, 102);
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.links {
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 4px;
+    margin-right: 26px;
+}
+
+.links a {
+    width: 30px;
+    height: 30px;
+}
+
+.sectionUser {
+    margin-top: 220px;
+    margin-bottom: 330px;
+}
+
+.content-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+    padding-top: 44px;
+    color: rgb(66, 68, 110)
+}
+
+.user-photo {
+    padding-top: 9px;
+    width: 370px;
+    height: 370px;
+}
+
+.Pavan-gradient {
+
+    font-weight: bold;
+    background-image: linear-gradient(45deg, rgb(19, 176, 245), rgb(131, 64, 112));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.text-content h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: left;
+    width: 636px;
+    height: 297px;
+}
+
+.title {
+    color: rgb(66, 68, 110);
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.description {
+    margin-top: 49px;
+    color: rgb(102, 102, 102);
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 145px;
+    display: flex;
+
+}
+
+.skills ul {
+    display: flex;
+    gap: 103px;
+    flex-wrap: wrap;
+
+}
+
+.skills ul li img {
+    width: 110px;
+    height: 110px;
+}
+
+
+.icon {
+    color: black;
+}
+
+.projects {
+    margin-top: 192px;
+}
+
+.projects-block {
+    margin-top: 92px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap: 62px 45px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". . .";
+}
+
+.project-card {
+    width: 375px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+    background: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.project-description {
+    padding: 27px 31px 25px 28px;
+}
+
+.project-title {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+
+}
+
+.about-project {
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin-top: 17px;
+}
+
+.project-stack {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 12px;
+    color: rgb(66, 68, 110);
+}
+
+.project-stack span {
+    font-weight: 400;
+}
+
+
+.project-links {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration-line: underline;
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-links a {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.project-links a:last-child {
+    margin-right: 23px;
+}
+
+.footer {
+    margin-top: 203px;
+    margin-bottom: 60px;
+}
+
+.footer-info-block {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.margin {
+    margin-left: 48px;
+
+}
+
+.footer-info-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    gap: 74px;
+    margin-right: 96px;
+
+}
+
+.footer-info-links a {
+    color: rgb(66, 68, 110);
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.footer-social-links {
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+    margin-top: 17px;
+}
+
+hr {
+
+    width: 1209px;
+    height: 5.68px;
+
+    border: 2px solid rgb(102, 102, 102);
+    opacity: 0.3;
+    margin-top: 43px;
+    background-color: rgb(102, 102, 102);
+
+}
+
+.footer-nav-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 53px;
+    margin-left: 13px;
+}
+
+.footer-nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    width: 554px;
+
+}
+
+.footer-nav-links li a {
+    color: rgb(66, 68, 110);
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.footer-designed {
+    font-family: "Poppins", sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.footer-pavan-gradient {
+
+    background-image: linear-gradient(45deg, rgb(19, 176, 245), rgb(131, 64, 112));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.footer-pavan-love {
+    background-image: linear-gradient(45deg, rgb(167, 66, 138), rgb(231, 15, 170));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.footer-pavan-coffee {
+    background-image: linear-gradient(45deg, rgb(231, 15, 170), rgb(231, 15, 170));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
